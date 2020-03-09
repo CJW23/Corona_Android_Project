@@ -43,7 +43,7 @@ public class TotalFragment extends Fragment {
     }
     private void getTotalData() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.0.9:8080/")
+                .baseUrl("http://13.125.252.198:8080/")
                 .addConverterFactory(GsonConverterFactory.create()
                 )
                 .build();
